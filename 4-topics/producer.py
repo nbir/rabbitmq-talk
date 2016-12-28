@@ -8,8 +8,6 @@ channel = connection.channel()
 
 channel.exchange_declare(exchange='topics', exchange_type='topic')
 
-routing_keys = ['command.critical', 'mexico', 'russia']
-
 routing_keys_types = ['command', 'error']
 routing_keys_names = ['fuel', 'control-rod', 'turbine', 'water-supply']
 routing_keys_levels = ['normal', 'critical']
