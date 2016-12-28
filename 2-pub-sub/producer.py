@@ -1,5 +1,4 @@
 import pika
-import sys
 import time
 
 connection = pika.BlockingConnection(
